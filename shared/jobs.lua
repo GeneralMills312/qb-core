@@ -50,6 +50,18 @@ QBShared.Jobs = {
 			['4'] = { name = 'Manager', isboss = true, payment = 150 },
 		},
 	},
+
+	['pearls'] = {
+   		 label = 'Pearls Seafoods',
+    		defaultDuty = true,
+   		 offDutyPay = false,
+   		 grades = {
+      		  	['0'] = {name = 'Helper',payment = 30},
+       			['1'] = {name = 'Delivery',payment = 40},
+			['2'] = {name = 'Cook',payment = 50},
+        		['3'] = {name = 'Manager',payment = 100, isboss = true},
+    },
+},
 	taxi = {
 		label = 'Taxi',
 		defaultDuty = true,
